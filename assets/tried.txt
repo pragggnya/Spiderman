@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiderman</title>
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            background-color: #000;
+            font: 400 15px/1.8 "Lato", sans-serif;
+            color: #6d6b6b;
+        }
+
+         #bgimg-1,
+        #bgimg-2,
+        #bgimg-3 {
+            position: relative;
+            opacity: 0.65;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+        }
+
+        .bgimg-1 {
+            background-image: url("assets/img/selfie\ with\ life.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-2 {
+            background-image: url("assets/img/wallpaperflare.com_wallpaper.jpg");
+            min-height: 100%;
+        }
+
+        .bgimg-3 {
+            background-image: url("assets/img/spiderman.jpg");
+            min-height: 100%;
+        }
+
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+
+        .caption span.border {
+            background-color: #111;
+            color: #fff;
+            opacity: 0.8;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 6px;
+        }
+
+        h3 {
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            font: 20px "Lato", sans-serif;
+            color: #111;
+        }
+
+
+        #para3 {
+            position: relative;
+        }
+
+        .bgimg-2 span.border {}
+
+        #span3 {
+            background-color: transparent;
+            font-size: 25px;
+            color: #f7f7f7;
+
+        }
+        /* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- part 1 of the webpage -->
+    <!-- <section> -->
+        <div id="bgimg-1" class="bgimg-1">
+            <div id="caption1" class="caption">
+                <span id="span1" class="border"><q>You don't have to be great to start, but you have to start to be
+                        great.</q></span>
+            </div>
+        </div>
+
+        <div id="para1">
+            <h3>Who is Spiderman ?</h3>
+            <p>Spider-Man's secret identity is Peter Benjamin Parker, a teenage high school student and an orphan raised
+                by his Aunt May and Uncle Ben in New York City after his parents Richard and Mary Parker died in a plane
+                crash.</p>
+
+        </div>
+    <!-- </section> -->
+    <!-- Part 2 of the webpage -->
+    <!-- <section> -->
+        <div id="bgimg-2" class="bgimg-2">
+            <div class="caption">
+                <span id="span2" class="border">
+                    <q>No one can win every battle, but no man should fall without a struggle.</q>
+                </span>
+            </div>
+        </div>
+
+        <div id="para2" class="para2">
+            <div>
+                <h3>how did he become Spiderman ?</h3>
+                <p>Spider-Man gets his superhuman spider-powers and abilities after being bitten by a radioactive
+                    spider;
+                    these include superhuman strength, agility, reflexes, stamina, durability, coordination, and
+                    balance,
+                    clinging to surfaces and ceilings like a spider, and detecting danger with his precognition ability
+                    called "spider-sense". He builds wrist-mounted "web-shooter" devices that shoot artificial
+                    spider-webs
+                    of his own design, which he uses both for fighting and for web-swinging across the city.</p>
+            </div>
+        </div>
+    <!-- </section> -->
+    <!-- <section> -->
+        <div class="bgimg-3 " style="position: relative;">
+            <div class="caption">
+                <span id="span3" class="border"><q>With great power comes great responsibility.</q></span>
+            </div>
+        </div>
+
+        <div id="para3">
+        <div id=" ck2"
+            style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p>Scroll up and down to really get the feeling of how Parallax Scrolling works.</p>
+        </div>
+        </div>
+    <!-- </section> -->
+
+</body>
+
+</html>
